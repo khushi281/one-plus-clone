@@ -1,0 +1,2079 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*******    navbar    *******/
+
+.nav-section{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+
+
+}
+.nav-section img {
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav-section ul {
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+
+.nav-section span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 650px;
+    /* padding-right: 60px; */
+
+}
+.ul-1 {
+    width: 850px;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 15px;
+    /* background-color: green; */
+}
+.ul-1 li:hover{
+    border-bottom: 2px solid red;
+}
+.ul-2{
+    width: 14%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.fa-regular{
+    padding-top: 5px;
+    font-size: 20px;
+}
+.ul-2 li:hover{
+    border-bottom: 2px solid red;
+}
+
+
+
+/******   media-nav   ******/
+
+.new-nav {
+    height: 50px;
+    width: 100%;
+    /* display: flex;
+    justify-content:space-between; */
+    padding: 10px 30px;
+    color: black;
+
+}
+.nav-2 {
+    width: 100%;
+    display: none;
+    
+}
+
+.new-nav-2 img {
+    height: 40px;
+    margin-left: 25px;
+
+}
+
+.new-nav i {
+
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/******   full-image   ******/
+
+.full-image{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://www.oneplus.in/content/dam/oasis/page/2023/in/kv-banner/community-sale/HP_1440x720.jpg.thumb.webp);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
+}
+.full-image-text{
+    height:500px;
+    width: 700px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+.full-image-text h5{
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 150px;
+}
+.full-image-text h1{
+    font-size: 47px;
+    font-weight: 500;
+}.full-image-text span{
+    padding-top: 290px;
+}
+.full-image-text button{
+    height: 35px;
+    width: 280px;
+    border: none;
+}
+.full-image-text button:hover{
+    background-color: rgb(242, 239, 239);
+
+}
+
+
+/*******   left-side-icon    ******/
+
+.left-side-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(238, 234, 234);
+    position: fixed;
+    left: 25px;
+    bottom: 160px;
+    z-index: 99999;
+}
+.left-side-icon .fa-solid{
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    font-size: 22px;
+
+}
+
+
+
+/*******   media-full-image    ******/
+
+.media-full-image{
+    display: none;
+    height: 550px;
+    width: 100%;
+    background-image: url(https://www.oneplus.in/content/dam/oasis/page/2023/in/kv-banner/community-sale/HP_1440x720.jpg.thumb.webp);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.media-image-text{
+    height:400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.media-image-text h5{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+.media-image-text h1{
+    font-size: 38px;
+    font-weight: 500;
+}
+.media-image-text span{
+    padding-top: 290px;
+}
+.media-image-text button{
+    height: 40px;
+    width: 240px;
+    margin-top: 35px;
+    border: none;
+}
+
+.media-right-side-icon{
+    display: none;
+}
+
+
+
+/******  part-3  ******/
+
+.part-3{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    padding: 45px 0px 40px 40px;
+}
+.text-section{
+    height: 450px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.text-section h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+.text-sc-img{
+    display: none;
+}
+.buy-section p{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 13px;
+
+}
+.buy-section h2{
+    font-size: 21px;
+    font-weight: 500;
+}
+.buy-btn{
+    height: 40px;
+    width: 48%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    margin-top: 15px;  
+    cursor: pointer;
+}
+.buy-btn:hover{
+    background-color: rgb(30, 30, 30);
+}
+
+.learn-btn{
+    height: 40px;
+    width: 48%;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;  
+    cursor: pointer;
+}
+.learn-btn:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+.image-sc{
+    height: 450px;
+    width: 70%;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.image-sc img{
+    height: 450px;
+    width: 780px;
+    cursor: pointer;
+}
+.image-sc img:hover{
+    transform: scale(105%);
+    transition: all ease-in-out 2s;
+}
+
+
+/******   part-4   ******/
+
+.tv-buds{
+
+    height:380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/******   tv buds section  ******/
+
+.tv-buds-section {
+    height: 380px;
+    width: 95%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/******   tv-sec  ******/
+
+.tv-sec{
+    background-color:#F8F8F8;
+    height: 350px;
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 15px;
+    
+}
+.tv-text{
+    padding-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 12px;
+}
+.tv-text h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+.tv-text h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+.tv-text p{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.tv-text h2{
+    font-size: 19px;
+    font-weight: 400;
+}
+.tv-img {
+    height: 320px;
+    width: 250px;
+    cursor: pointer;
+    display: block;
+    margin-right: 20px;
+}
+.tv-img:hover {
+    transition: ease-in-out 0.3s;
+    transform: scale(108%);
+}
+.buy-tv {
+    height: 40px;
+    width: 45%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    margin-top: 20px;
+}
+.buy-tv:hover{
+    cursor: pointer;
+    background-color: rgb(30, 30, 30);
+}
+
+.buy-buds {
+    height: 40px;
+    width: 45%;
+    background-color:transparent;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.buy-buds:hover{
+    background-color: rgb(222, 217, 217);
+}
+
+
+/******   media-tv-buds   *******/
+
+.container {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    display: none;
+}
+
+.televison {
+    height: 80%;
+    width: 100%;
+    min-width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color:#F8F8F8;
+    
+
+}
+
+.televison img {
+
+    height: 450px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.televison h3 {
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.televison h1 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.televison p {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 5px;
+
+}
+
+.televison h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.televison button {
+
+    margin-top: 12px;
+    height: 40px;
+    width: 40%;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+
+.btn-buy {
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    border: none;  
+
+}
+
+.btn-learn {
+    margin-left: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+/*******    buds-sec   *******/
+.buds-sec{
+    background-color:#F8F8F8;
+    height: 350px;
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 15px;
+    
+}
+
+/******   part-5   ******/
+
+.hot{
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 40px;
+
+}
+.hot h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border-bottom: 1px solid rgba(167, 164, 164, 0.616);
+}
+.hot ul {
+    margin-top: 30px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    list-style: none;
+    cursor: pointer;
+}
+.hot li{
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.product{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+
+
+}
+.cards{
+    height: 550px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#F8F8F8;
+
+}
+.cards img{
+    height: 280px;
+    cursor: pointer;
+}
+.cards img:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(107%);
+}
+
+.cards h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.discount{
+    font-size: 13px;
+    color:  rgb(255, 0, 0);
+    padding-top: 10px;
+}
+.cards p{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.rs-btn {
+    font-size: 17px;
+    height: 42px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    margin-top: 26px;
+    background-color:#F8F8F8;
+
+}
+
+
+.rs-btn:hover {
+    background: black;
+    color: white;
+}
+
+.cards-2{
+    height: 550px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#F8F8F8;
+
+}
+.cards-2 img{
+    height: 280px;
+    cursor: pointer;
+}
+.cards-2 img:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(107%);
+}
+
+.cards-2 h1{
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.discount-2{
+    font-size: 13px;
+    color:  rgb(255, 0, 0);
+    padding-top: 10px;
+}
+.cards-2 p{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.view button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 100%;
+    font-size: 14px;
+    background-color: transparent;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+.view .fa-solid{
+    color: black;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+
+/******   part-6   ******/
+
+.part-6{
+    height: 520px;
+    width: 100%;
+    display: flex;
+    padding: 45px 0px 40px 50px;
+    background-color: black;
+    margin-top: 20px;
+
+}
+.part-6-text{
+    height: 450px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.part-6-text h5{
+    font-size: 21px;
+    font-weight: 300;
+
+}
+.part-6-text h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+.part-6-img{
+    display: none;
+}
+
+.buy-6-section h2{
+    font-size: 17px;
+    font-weight: 500;
+}
+.buy-6-section h3{
+    padding-top: 25px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.buy-6-section a{
+    color: white;
+}
+.buy-6-section a:hover{
+    color:rgb(40, 40, 196);
+}
+
+.image-sc-6{
+    height: 450px;
+    width: 70%;
+    padding-left: 10px;    
+    overflow: hidden;
+}
+.image-sc-6 img{
+    height: 450px;
+    width: 750px;
+    cursor: pointer;
+}
+.image-sc-6 img:hover{
+    transform: scale(105%);
+    transition: all ease-in-out 2s;
+}
+
+/******   part-7    ******/
+
+.featuring{
+    width: 100%;
+    background-color:black;
+    color: white;
+    padding: 30px;
+    padding-left: 30px;
+}
+.featuring h4{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 40px;
+    border-bottom: 1px solid white;
+}
+.featuring h1{
+    font-size: 45px;
+    font-weight: 200;
+    padding-top: 16px;
+}
+.featuring h1 a{
+    color:#f50514 ;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fa-arrow-right{
+    font-size: 70;
+    color: red;
+}
+.s1-container{
+    display: flex;
+    padding-top: 30px;
+}
+.left-s1 img{
+    height: 430px;
+    width: 750px;
+    cursor: pointer;
+}
+.left-s1 img:hover{
+    transform: scale(105%);
+    transition: all ease-in-out 2s;
+}
+
+.right-s1{
+
+    width: 50%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+.right-s1 h3{
+    font-size: 25px;
+    font-weight: 200;
+}
+.right-s1 h1{
+    font-size: 45px;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+.right-s1 p{
+    font-size: 15px;
+}
+.right-s1  a{
+    padding-top: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+.right-s1 a:hover{
+    color:rgb(40, 40, 196);
+}
+
+.right-s1 h6{
+    padding-top: 20px;
+}
+.right-s1 img{
+    display: none;
+}
+
+
+/*******    part-8   *******/
+
+.topia{
+
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    padding-left: 50px;
+
+}
+.topia h4{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 40px;
+    border-bottom: 1px solid white;
+}
+.topia h1{
+    font-size: 45px;
+    font-weight: 200;
+    padding-top: 16px;
+}
+.topia h1 a{
+    color:#f50514 ;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fa-arrow-right{
+    font-weight: 10;
+    color: red;
+}
+.s2-container{
+    display: flex;
+    margin-top: 40px;
+    width: 100%; 
+}
+.left-s2 {
+    width: 35%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-s2 h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+.left-s2 p{
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+.left-s2  a{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+.left-s2 a:hover{
+    color:rgb(40, 40, 196);
+}
+
+.left-s2 h6{
+    padding-bottom: 10px;
+}
+.left-s2 img{
+    display: none;
+}
+.right-s2{
+    width: 70%;
+}
+
+.right-s2 img{
+    height: 430px;
+    width: 750px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.right-s2 img:hover {
+    transition: all ease-in-out 2s;
+    transform: scale(105%);
+}
+
+
+
+/*******    part-9    *******/
+
+.part-9{
+    height: auto;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+
+}
+.nature{
+    height: 380px;
+    width: 48%;
+    display: flex;
+    background-color: #222222;
+}
+.nature-text{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.nature-text  h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(80, 79, 79);
+    padding-top: 15px;
+}
+.nature-text h1{
+    font-size: 32px;
+    font-weight: 300;
+    padding-top: 5px;
+
+}
+.nature-text  p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+}
+.nature-text a{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;   
+}
+.nature-text a:hover{
+    color:rgb(40, 40, 196);
+}
+
+.nature-text h6{
+    padding-bottom: 20px;
+}
+.nature-img{
+    height: 380px;
+    width: 50%;
+    cursor: pointer;
+}
+.nature-img img {
+    height: 380px;
+    width: 100%;
+}
+
+
+.photography{
+    height: 380px;
+    width: 48%;
+    display: flex;
+    background-color: #222222;
+}
+.photography-text{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.photography-text  h3{
+    font-size: 23px;
+    font-weight: 500;
+    color: rgb(80, 79, 79);
+    padding-top: 15px;
+}
+.photography-text h1{
+    font-size: 28px;
+    font-weight: 300;
+    padding-top: 5px;
+}
+.photography-text  p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+}
+.photography-text a{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;   
+}
+.photography a:hover{
+    color:rgb(40, 40, 196);
+}
+
+.photography-text h6{
+    padding-bottom: 20px;
+}
+.photography-img{
+    height: 380px;
+    width: 50%;
+    cursor: pointer;
+}
+.photography-img img {
+    height: 380px;
+    width: 100%;
+}
+
+
+/******   part-10    ******/
+
+.club{
+    width: 100%;
+    background-color:black;
+    color: white;
+    padding: 40px;
+}
+.club h4{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 40px;
+    border-bottom: 1px solid white;
+}
+.club h1{
+    font-size: 43px;
+    font-weight: 200;
+    padding-top: 16px;
+}
+.club h1 a{
+    color:#f50514 ;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fa-arrow-right{
+    font-weight: 10;
+    color: red;
+}
+.s3-container{
+    display: flex;
+    padding-top: 30px;
+}
+.left-s3 img{
+    height: 430px;
+    width: 750px;
+    cursor: pointer;
+}
+.left-s3 img:hover {
+   transition: all ease-in-out 2s;
+   transform: scale(105%);
+}
+
+.right-s3{
+
+    width: 50%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+.right-s3 h3{
+    font-size: 25px;
+    font-weight: 200;
+}
+.right-s3 h1{
+    font-size: 45px;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+.right-s3 p{
+    font-size: 15px;
+}
+.right-s3  a{
+    padding-top: 18px;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+.right-s3 a:hover{
+    color:rgb(40, 40, 196);
+}
+
+.right-s3 h6{
+    padding-top: 20px;
+}
+.right-s3 img{
+    display: none;
+}
+
+
+/******    part-11     *******/
+
+.community{
+
+    width: 100%;
+    background-color:white;
+    color: black;
+    padding: 40px;
+
+}
+.community h4{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 40px;
+    color: rgb(85, 82, 82);
+    border-bottom: 1px solid rgb(195, 192, 192);
+}
+
+.s4-container{
+    display: flex;
+    margin-top: 40px;
+    width: 100%; 
+}
+.left-s4 {
+    width: 50%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-s4 h1{
+    font-size: 48px;
+    font-weight: 300;
+}
+.left-s4 p{
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+.left-s4  a{
+    color:black;
+    font-size: 18px;
+    font-weight: 200;
+}
+.left-s4 a:hover{
+    color:rgb(40, 40, 196);
+}
+
+.left-s4 h6{
+    padding-bottom: 10px;
+}
+.left-s4 img{
+    display: none;
+}
+
+.right-s4 img{
+    height: 430px;
+    width: 750px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.right-s4 img:hover {
+    transition: all ease-in-out 2s;
+    transform: scale(105%);
+}
+
+
+/******   part-12    ******/
+
+.shot-on-oneplus{
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+
+}
+.card-3 {
+    background-color: white;
+    height: 500px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.card-3 img {
+    height: 53%;
+    cursor: pointer;
+}
+.card-3 img:hover{
+    transition: all ease-in-out 2s;
+    transform: scale(105%);
+}
+
+.card-3 h1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.card-3 p {
+    font-size: 14px;
+    padding-left: 5px;
+
+}
+.card-3 a{
+    font-size: 16px;
+    color: black;
+
+}
+.card-3 a:hover{
+    color:rgb(40, 40, 196);
+}
+
+
+.card-4 {
+    background-color: white;
+    height: 500px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+
+.card-4 img {
+    height: 53%;
+    cursor: pointer;
+}
+.card-4 img:hover{
+    transition: all ease-in-out 2s;
+    transform: scale(105%);
+}
+
+.card-4 h1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 5px;
+
+}
+
+.card-4 p {
+    font-size: 14px;
+    padding-left: 5px;
+
+}
+.card-4 a{
+    font-size: 16px;
+    color: black;
+    
+}
+.card-4 a:hover{
+    color:rgb(40, 40, 196);
+}
+
+
+
+/******    part-13    ******/
+
+.part-13{
+    width: 100%;
+    background-color:white;
+    color: black;
+    padding: 40px;
+
+}
+.part-13-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 100%; 
+
+}
+.part-13 h4{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 40px;
+    color: rgb(85, 82, 82);
+    border-bottom: 1px solid rgb(195, 192, 192);
+}
+.helpdesk{
+    height: 380px;
+    width: 48%;
+    display: flex;
+    background-color:#F8F8F8;
+    color: black;
+    
+}
+.helpdesk-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.helpdesk-text  h3{
+    font-size: 21px;
+    font-weight: 500;
+    color:rgb(163, 160, 160);
+    padding-top: 15px;
+}
+.helpdesk-text h1{
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+
+}
+.helpdesk-text  p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+}
+.helpdesk-text a{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;   
+}
+.helpdesk-text a:hover{
+    color:rgb(40, 40, 196);
+}
+
+.helpdesk-text h6{
+    padding-bottom: 20px;
+}
+.helpdesk-img{
+    height: 380px;
+    width: 50%;
+}
+.helpdesk-img img {
+    height: 380px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.technical{
+    height: 380px;
+    width: 48%;
+    display: flex;
+    background-color:#F8F8F8;
+}
+.technical-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+.technical-text  h3{
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(163, 160, 160);
+    padding-top: 15px;
+}
+.technical-text h1{
+    font-size: 28px;
+    font-weight: 300;
+    padding-top: 5px;
+}
+.technical-text  p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+}
+.technical-text a{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;   
+}
+.technical-text a:hover{
+    color:rgb(40, 40, 196);
+}
+
+.technical-text h6{
+    padding-bottom: 20px;
+}
+.photography-img{
+    height: 380px;
+    width: 50%;
+}
+.technical-img img {
+    height: 380px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+/******    part-14    ******/
+
+.part-14{
+    height: 80px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px 0px 50px;
+    border-top: 1px solid rgb(148, 143, 143);
+    border-bottom: 1px solid rgb(148, 143, 143);
+    line-height: 80px;
+    margin-left: 50px;
+    
+    
+}
+.button-list{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button-list .fa-arrow-right{
+    color: black;
+}
+.button-list hr{
+    height: 80px;
+    color: black;
+}
+.part-14 ul{
+    list-style: none;
+}
+
+
+/******   part-15   ******/
+
+.stay-connected{
+    height: 480px;
+    background-color: black;
+    color: white;
+    padding: 30px
+
+}
+.stay-connected h4{
+    font-size:20px;
+    font-weight: 400;
+    border-bottom: 1px solid gray;
+    line-height: 50px;
+
+}
+.stay-connected-cards {
+    margin-top: 40px;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+.shop {
+    background-image: url(https://oasis.opstatics.com/content/dam/oasis/page/2022/new-homepage/na/homepage/subscribe/APPdownload_PC_Red_New.png.thumb.webp);
+    background-size: cover;
+    background-position: center;
+    width: 49%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.shop h1 {
+    font-size: 33px;
+    font-weight: 300;
+    color: white;
+}
+.shop h6{
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 20px;
+    color: rgb(113, 113, 113);
+}
+
+.shop p {
+    color: rgb(175, 173, 173);
+    font-size: 16px;
+    padding-top: 5px;
+    font-weight: 300;
+
+}
+
+.shop button {
+
+    height: 45px;
+    width: 250px;
+    background: none;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.767);
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+/*****   page-16    *****/
+
+/*****   last-1    ******/
+
+.last-1{
+    height: 400px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+
+/********     phones    *******/
+
+.phones a{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(122, 121, 121);
+    text-decoration: none;
+}
+.phones a:hover{
+    color: black;
+}
+.phones h1{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.phones li{
+    padding-top: 12px;
+}
+.phones a:hover{
+    border-bottom: 2px solid white;
+}
+.last-1 ul{
+    list-style: none;
+}
+
+
+.media-acoridan{
+    display: none;
+}
+
+
+/******   content   ******/
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    
+}
+.content-1{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-size: 15px;
+    
+}
+.fa-solid{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.content-2{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+
+}
+.content-2 hr{
+    padding-top: 30px;
+    height: 2px;
+}
+.content-2 h1{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+    color:rgb(0, 153, 204);
+    cursor: pointer;
+
+
+}
+.fa-brands{
+    font-size: 23px;
+    padding-top: 2px;
+    color: grey;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    color: black;
+}
+.content ul{
+    list-style: none;
+}
+
+
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f2f2;
+
+
+}
+.india{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-size: 18px;
+    padding-top: 15px;
+    cursor: pointer;
+
+}
+.list-1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.list-1 li{
+    cursor: pointer;
+}
+.list-1 hr{
+    line-height: 10px;
+}
+.list ul{
+    list-style: none;
+}
+
+
+
+.last-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #f4f2f2;
+}
+.copy p{
+    font-size: 14px;
+    color: rgb(147, 146, 146);
+}
+.last-logo{
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    .nav-section{
+        display: none;
+    }
+
+    .nav-2 {
+        height: 50px;
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .new-nav-1{
+        display: block;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .new-nav-3{
+        width: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 50px;
+        gap: 10px;
+
+    }
+    .nav-2 ul{
+        list-style: none;
+    }
+    .nav-2 .fa-solid{
+        font-size: 16px;
+        padding-top: 13px;
+        
+    }
+
+    .full-image{
+        display: none;
+    }
+    .media-full-image{
+        display: block;
+    }
+    .media-right-side-icon{
+        display: block;
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+        background-color: rgb(238, 234, 234);
+        position: fixed;
+        right: 15px;
+        bottom: 100px;
+        z-index: 99999;
+    }
+    .media-right-side-icon .fa-solid{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        font-size: 19px;
+    
+    }
+
+
+    .part-3{
+        height: auto;
+        width: 100%;
+    }
+    .text-section{
+        height: auto;
+        width: 100%;
+    }
+    .text-sc-img{
+        display: block;
+
+    }
+    .text-sc-img img{
+        height: 280px;
+        width: 82%;
+    }
+    .image-sc{
+        display: none;
+    }
+    .buy-section p{
+        padding-top: 20px;
+    }
+
+    .tv-buds{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        display: block;
+    }
+    .televison{
+        width: 100%;
+    }
+
+    .hot{
+        width: 100%;
+        padding-right: 50px;
+    }
+    .hot ul{
+        width: 100%;
+    }
+    .hot ul li{
+        font-size: 17px;
+    }
+
+    .cards{
+        width: 100%;
+    }
+    .cards-2{
+        display: none;
+    }
+
+    .part-6{
+        height: auto;
+        width: 100%;
+    }
+    .part-6-text{
+        height: auto;
+        width: 100%;
+    }
+    .part-6-text h1{
+        font-size: 30px;
+    }
+    .part-6-text h2{
+        display: none;
+    }
+    .part-6-img{
+        display: block;
+        padding-top: 20px;
+
+    }
+    .part-6-img img{
+        height: 200px;
+        width: 82%;
+    }
+    .image-sc-6{
+        display: none;
+    }
+  
+    .featuring{
+        width: 100%;
+    }
+    .featuring h1{
+        font-size: 30px;
+    }
+    .s1-container{
+        width: 100%;
+    }
+    .left-s1{
+        display: none;
+    }
+    .right-s1{
+        width: 100%;
+    }
+    .right-s1 h3{
+        font-size: 19px;
+    }
+    .right-s1 h1{
+        font-size: 28px;
+    }
+    .right-s1 img{
+        display: block;
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    .topia{
+        width: 100%;
+    }
+    .topia h1{
+        font-size: 30px;
+    }
+    .s2-container{
+        width: 100%;
+    }
+    .left-s2{
+        width: 100%;      
+    }
+    .left-s2 h1{
+        font-size: 22px;
+    }
+    .left-s2 img{
+        display: block;
+    }
+    .right-s2{
+        display: none;
+    }
+
+    .part-9{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nature{
+        width: 100%;
+      
+    }
+    .nature-text{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .nature-text h3{
+        font-size: 17px;
+    }
+    .nature-text h1{
+        font-size: 25px;
+    }
+    .nature-text p{
+        padding-top: 70px;
+        font-size: 16px;
+    }
+    .nature-img{
+        width: 100%;
+    }
+    .photography{
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+      
+    }
+    .photography-text{
+        width: 100%;
+    }
+    .photography-text h3{
+        font-size: 17px;
+    }
+    .photography-text h1{
+        font-size: 25px;
+    }
+    .photography-text p{
+        padding-top: 52px;
+        font-size: 13px;
+        padding-left: 18px;
+    }
+    .photography-img{
+        width: 100%;
+    }
+
+    .club{
+        width: 100%;
+    }
+    .club h1{
+        font-size: 30px;
+    }
+    .s3-container{
+        width: 100%;
+    }
+    .left-s3{
+        display: none;
+    }
+    .right-s3{
+        width: 100%;
+    }
+    .right-s3 h3{
+        font-size: 19px;
+    }
+    .right-s3 h1{
+        font-size: 28px;
+    }
+    .right-s3 img{
+        display: block;
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    .community{
+        width: 100%;
+    }
+    .community h1{
+        font-size: 30px;
+    }
+    .s4-container{
+        width: 100%;
+    }
+    .left-s4{
+        width: 100%;      
+    }
+    .left-s4 h1{
+        font-size: 22px;
+    }
+    .left-s4 img{
+        display: block;
+    }
+    .right-s4{
+        display: none;
+    }
+
+    .shot-on-oneplus{
+        height: 515px;
+        width: 100%;
+        background-color: #F8F8F8;
+
+    }
+    .card-3{
+        width: 100%;
+        background-color: #F8F8F8;
+
+    }
+    .card-3 p{
+        font-size: 18px;
+    }
+    .card-4{
+        display: none;
+    }
+
+    .part-13{
+        height: auto;
+        width: 100%;
+       
+    }
+    .part-13-section{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        flex-direction: column;
+    }
+    .helpdesk{
+        width: 100%;
+      
+    }
+    .helpdesk-text{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .helpdesk-text h3{
+        font-size: 17px;
+    }
+    .helpdesk-text h1{
+        font-size: 27px;
+    }
+    .helpdesk-text p{
+        padding-top: 70px;
+        font-size: 16px;
+    }
+    .helpdesk-img{
+        width: 100%;
+    }
+    .technical{
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+      
+    }
+    .technical-text{
+        width: 100%;
+    }
+    .technical-text h3{
+        font-size: 17px;
+    }
+    .technical-text h1{
+        font-size: 25px;
+    }
+    .technical-text p{
+        padding-top: 60px;
+        font-size: 14px;
+        padding-left: 16px;
+    }
+    .technical-img{
+        width: 100%;
+    }
+
+    .part-14{
+       display: none;
+
+    }
+    
+    
+    .stay-connected{
+        height: auto;
+        width: 100%;
+    }
+    .stay-connected-cards{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+    .shop{
+        height:250px;
+        width: 100%;
+    }
+    .shop h1{
+        font-size: 19px;
+    }
+    .shop p{
+        font-size: 16px;
+    }
+
+    .last-1{
+        display: none;
+    }
+    .media-acoridan{
+        display: block;
+    }
+    .media-acoridan ul{
+        list-style: none;
+    }
+    
+
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content-1{
+        width: 100%;
+        padding-right: 30px;
+        border-bottom: 1px solid black;
+    }
+    .content-2{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 90px;
+    }
+    .content-2 hr{
+        display: none;
+    }
+
+    .list{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .india{
+        width: 100%;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        padding-right: 20px;
+    }
+    .list-1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .list-1 li:last-child{
+        display: none;
+    }
+    .list-1 hr{
+        display: none;
+    }
+
+    .last-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .last-logo{
+        margin-top: 10px;
+    }
+
+}
